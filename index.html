@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotibro - Music around you</title>
+
+    <!-- Font Awesome 6 -->
+    <link
+      rel="stylesheet"
+      href="assets/vendor/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+
+    <!-- Bootstrap 5 -->
+    <link
+      rel="stylesheet"
+      href="assets/vendor/bootstrap-5.2.3-dist/css/bootstrap.min.css"
+    />
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="assets/vendor/aos-master/dist/aos.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar-scroll">
+    <!-- Start | Navigation Bar -->
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top"
+      id="navbar-scroll"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand">Spotibro.</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto my-3 my-md-0 fw-bolder">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Genres" class="nav-link">Genres</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End | Navigation Bar -->
+
+    <!-- Start | Hero Section -->
+    <section id="home" class="container">
+      <div class="row min-vh-100">
+        <div
+          class="col-lg-6 d-flex flex-column justify-content-center order-1 order-lg-0"
+        >
+          <h1 class="fw-bold pb-4" data-aos="fade-up">
+            We offer playlist for your music taste
+          </h1>
+          <h3 class="fs-4 pb-4" data-aos="fade-up" data-aos-delay="200">
+            Come check out our new playlist and enjoy the atmosphere.
+          </h3>
+          <div data-aos="fade-up" data-aos-delay="300">
+            <a href="#about" class="btn btn-info btn-lg text-white">
+              Check it out <i class="fas fa-long-arrow-alt-right ms-3"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex align-self-center">
+          <img
+            src="assets/img/music.jpg"
+            alt=""
+            class="img-fluid"
+            data-aos="fade-left"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- End | Hero Section -->
+
+    <!-- Start | The Info Box -->
+    <div class="container my-5">
+      <div class="row mb-5">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+          >
+            <div>
+              <i class="far fa-smile fa-3x text-primary"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">10k+</p>
+              <p class="mb-1">Happy Clients</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
+            <div>
+              <i class="fas fa-trophy fa-3x text-warning"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">15</p>
+              <p class="mb-1">Awards Won</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div>
+              <i class="fas fa-file-invoice fa-3x text-success"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">5</p>
+              <p class="mb-1">Collaboration Done</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+            data-aos-delay="450"
+          >
+            <div>
+              <i class="fas fa-user-friends fa-3x text-danger"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">5k+</p>
+              <p class="mb-1">Memberships</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End | The Info Box -->
+
+    <!-- Start | About Section -->
+    <section id="about" class="bg-light py-5">
+      <div class="container">
+        <div class="text-center py-5">
+          <h2
+            class="fw-bolder border-bottom border-info border-3 d-inline-block pb-1"
+            data-aos="zoom-in"
+          >
+            About
+          </h2>
+          <p class="fs-5 mt-3" data-aos="zoom-in-up" data-aos-delay="50">
+            We build this for you
+          </p>
+        </div>
+        <div class="col-xl-8 mx-auto mb-5">
+          <div class="accordion">
+            <!-- Accordion Item -->
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+            >
+              <h5 class="accordion-header rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                >
+                  Short history about the company.
+                </button>
+              </h5>
+              <div class="accordion-collapse collapse" id="collapseOne">
+                <div class="accordion-body">
+                  Starting from the creator's love for pop music.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item -->
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h5 class="accordion-header rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                >
+                  What we have achived over the years?
+                </button>
+              </h5>
+              <div class="accordion-collapse collapse" id="collapseTwo">
+                <div class="accordion-body">
+                  We have won several awards in the music sector such as music awards from 2021 
+                  until now, extramusic 2022, best music service provider 2022.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item -->
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h5 class="accordion-header rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                >
+                  Why you should choose us?
+                </button>
+              </h5>
+              <div class="accordion-collapse collapse" id="collapseThree">
+                <div class="accordion-body">
+                  We have been tested in various parts of the country from West to East. 
+                  Almost everyone uses our Genres.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item -->
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <h5 class="accordion-header rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                >
+                  What makes us special?
+                </button>
+              </h5>
+              <div class="accordion-collapse collapse" id="collapseFour">
+                <div class="accordion-body">
+                  We provide the best music Genres because we provide the cheapest 
+                  and most affordable prices.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End | About Section -->
+
+    <!-- Start | Genres Section -->
+    <div id="Genres" class="container py-5">
+      <div class="text-center py-5">
+        <h2
+          class="fw-bolder border-bottom border-info border-3 d-inline-block pb-1"
+          data-aos="zoom-in"
+        >
+          Genres
+        </h2>
+        <p class="fs-5 mt-3" data-aos="zoom-in-up" data-aos-delay="50">
+          These are some of our genres
+        </p>
+      </div>
+      <div class="row pb-5">
+        <!-- Item 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-success"
+            data-aos="fade-right"
+          >
+            <i class="far fa-file-archive fa-3x text-success pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3"> Pop</h4>
+            <p>
+              Pop music is a genre of popular music that originated in its modern form in the United States and England in the mid-1950s. The terms "popular music" and "pop music" are often used 
+              interchangeably, although the former describes all music that is popular and includes many diverse styles.
+            </p>
+            <a href="#" class="text-success fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-danger"
+            data-aos="fade-up"
+          >
+            <i class="far fa-file-archive fa-3x text-danger pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3">Podcast</h4>
+            <p>
+              The term podcast is actually taken from iPod and broadcast. Pod is taken from Apple's digital media player 'iPod' and cast is taken from the radio term 'broadcast'. 
+              Podcasts can be listened to anytime and anywhere
+            </p>
+            <a href="#" class="text-danger fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-warning"
+            data-aos="fade-left"
+          >
+            <i class="far fa-file-archive fa-3x text-warning pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3">Hip-hop</h4>
+            <p>
+              Hip hop music or Hip-hop or rap music is a cultural movement that began to grow around the 1970s. Developed by Afro-American and Latin-American communities. 
+              Hip Hop is a combination of MCing, DJing, Breakdancing and Graffiti
+            </p>
+            <a href="#" class="text-warning fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-danger"
+            data-aos="fade-right"
+          >
+            <i class="far fa-file-archive fa-3x text-danger pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3">K-pop</h4>
+            <p>
+              K-pop, Korean pop or Korean Pop is a subgenre of pop music originating from South Korea. K-pop and K-drama are two 
+              inseparable parts of the Korean Wave in various countries around the world
+            </p>
+            <a href="#" class="text-danger fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-info"
+            data-aos="fade-up"
+          >
+            <i class="far fa-file-archive fa-3x text-info pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3">Rock</h4>
+            <p>
+              Rock music or rock music is a broad genre of popular music that originated from rock and roll in the United States in the late 1940s and early 1950s, developing into a variety of different styles 
+              from the mid-1960s onwards, especially in the United States. and England.
+            </p>
+            <a href="#" class="text-info fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="shadow-lg p-5 text-center border-bottom border-4 border-success"
+            data-aos="fade-left"
+          >
+            <i class="far fa-file-archive fa-3x text-success pb-4 pt-2"></i>
+            <h4 class="fw-bolder fs-3 pb-3">R&B</h4>
+            <p>
+              R&B is a popular music genre that combines jazz, gospel, and blues, this type of genre was first introduced by African-American musicians. This term was first used as a marketing term in music in the 
+              United States in 1947 by Jerry Wexler who worked for Billboard magazine.
+            </p>
+            <a href="#" class="text-success fw-bold text-decoration-none">
+              Read More <i class="fas fa-long-arrow-alt-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End | Genres Section -->
+
+    <!-- Start | Newsletter Section -->
+    <div class="py-5" style="background: url(assets/img/musical.jpg) fixed">
+      <div class="container text-white">
+        <div class="row py-5 d-flex align-items-center justify-content-between">
+          <div class="col-lg-9">
+            <h2 class="fw-bold fs-3 pb-3" data-aos="fade-up">
+              Subscribe To Spotibro
+            </h2>
+            <p data-aos="fade-up" data-aos-delay="100">
+              Subscribe to get more benefit
+            </p>
+          </div>
+          <div class="col-lg-3 text-lg-center" data-aos="fade-left">
+            <a
+              href="#"
+              class="btn btn-outline-info rounded-pill btn-lg text-white"
+              data-bs-target="#subscribeModal"
+              data-bs-toggle="modal"
+            >
+              Subscribe
+            </a>
+          </div>
+        </div>
+        <!-- start | modal -->
+        <div class="modal fade text-dark" id="subscribeModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Subscribe To Our Spotibro</h5>
+                <button
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form action="">
+                  <div class="mb-3">
+                    <label for="name" class="col-form-label">Your Name:</label>
+                    <input type="text" class="form-control" id="name" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="col-form-label"
+                      >Your Email:</label
+                    >
+                    <input type="email" class="form-control" id="email" />
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button
+                  class="btn btn-outline-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button class="btn btn-info text-white">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end | modal -->
+      </div>
+    </div>
+    <!-- End | Newsletter Section -->
+
+    <!-- Start | Pricing Section -->
+    <section id="pricing" class="container py-5">
+      <div class="text-center py-5">
+        <h2
+          class="fw-bolder border-bottom border-3 d-inline-block border-info pb-1"
+          data-aos="zoom-in"
+        >
+          Pricing
+        </h2>
+        <p class="fs-5 mt-3" data-aos="zoom-in-up" data-aos-delay="50">
+          Price list
+        </p>
+      </div>
+      <div class="row pb-5">
+        <!-- item 1 -->
+        <div class="col-lg-4 mb-4">
+          <div class="text-center p-5 shadow-lg" data-aos="fade-right">
+            <h4 class="fw-bold py-3">Free Plan</h4>
+            <p class="fs-1 fw-bolder mb-0">$00.<small>00</small></p>
+            <p class="text-info fw-bolder">per month</p>
+            <div class="list py-3">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Free lyrics
+                </li>
+                <li class="list-group-item">
+                  Free shuffle
+                </li>
+                <li class="list-group-item">
+                  Music Video
+                </li>
+                <li class="list-group-item text-decoration-line-through">
+                  Offline Mode
+                </li>
+                <li class="list-group-item text-decoration-line-through">
+                  Friends Activity
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="col-lg-4 mb-4">
+          <div
+            class="text-center p-5 shadow-lg border-top border-bottom border-info border-4"
+            data-aos="fade-up"
+          >
+            <h4 class="fw-bold py-3">Single Plan</h4>
+            <p class="fs-1 fw-bolder mb-0">$5.<small>00</small></p>
+            <p class="text-info fw-bolder">per month</p>
+            <div class="list py-3">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Free lyrics
+                </li>
+                <li class="list-group-item">
+                  Free shuffle
+                </li>
+                <li class="list-group-item">
+                  Music Video
+                </li>
+                <li class="list-group-item">
+                  Offline Mode
+                </li>
+                <li class="list-group-item text-decoration-line-through">
+                  Friends Activity
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="col-lg-4 mb-4">
+          <div class="text-center p-5 shadow-lg" data-aos="fade-left">
+            <h4 class="fw-bold py-3">Team Plan</h4>
+            <p class="fs-1 fw-bolder mb-0">$9.<small>99</small></p>
+            <p class="text-info fw-bolder">per month</p>
+            <div class="list py-3">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Free lyrics
+                </li>
+                <li class="list-group-item">
+                  Free shuffle
+                </li>
+                <li class="list-group-item">
+                  Music Video
+                </li>
+                <li class="list-group-item">
+                  Offline Mode
+                </li>
+                <li class="list-group-item">
+                  Friends Activity
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End | Pricing Section -->
+
+    <!-- Start | Footer Section -->
+    <div class="bg-dark text-white">
+      <div class="container d-flex justify-content-between pt-3 pb-1">
+        <p>&copy; COPYRIGHT BY SPOTIBRO | ALL RIGHTS RESERVED</p>
+        <p>
+          Designed by
+          <a href="#" class="text-info text-decoration-none">Gerald</a>
+        </p>
+      </div>
+    </div>
+    <!-- End | Footer Section -->
+
+    <script src="assets/vendor/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos-master/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>
